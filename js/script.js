@@ -102,7 +102,8 @@ ani2Img.dblclick(function(event){
 var ani3Img = $("#animate3 img");
 ani3Img.click(function(){
   ani3Img.fadeOut("slow",function(){
-    ani3Img.animate(function(){    },1000,function(){
+    ani3Img.animate(function(){
+       },1000,function(){
      ani3Img.attr("src","https://placekitten.com/101/101");
      ani3Img.fadeIn("slow",function(){
       ani3Img.animate(function(){
@@ -110,5 +111,4 @@ ani3Img.click(function(){
     });
    });
   });
-
 });
